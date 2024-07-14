@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: 45-Spring-Security-JDBC-Authentication-App
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: password
+    url: jdbc:mysql://localhost:3306/sbms
+    username: root
+  jpa:
+    show-sql: true
