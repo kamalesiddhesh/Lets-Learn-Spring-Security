@@ -1,6 +1,6 @@
 **Spring Security architecture** and the relationships among them shown in below 
 
-<img width="750" alt="image" src="https://github.com/user-attachments/assets/ec79a3c6-35d6-4418-b363-520071ea82be">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/ec79a3c6-35d6-4418-b363-520071ea82be">
 
 **It shows that** - 
 1. The authentication filter delegates the authentication request to the authentication manager, and based on the response, it configures the security context.
