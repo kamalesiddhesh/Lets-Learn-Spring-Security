@@ -12,6 +12,10 @@
    thread-per-request app, that means until the app sends a response back to the client.
 
 **The interfaces that represent the main contracts for authentication flow in Spring Security**
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| 
+| col 3 is      | right-aligned |
 ----------------------------------------------------------------
     Contract       |             Description                    |
 --- | ---
