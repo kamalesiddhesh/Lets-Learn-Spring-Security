@@ -14,7 +14,7 @@
 **The interfaces that represent the main contracts for authentication flow in Spring Security**
 ----------------------------------------------------------------
     Contract       |             Description                    |
------------------- | -------------------------------------------
+--- | ---
 UserDetails        | Represents the user as seen by Spring Security.
 GrantedAuthority   | Defines an action within the purpose of the application that is allowable to the user (for example, read, write, delete,etc.).
 UserDetailsService | Represents the object used to retrieve user details by username.
