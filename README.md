@@ -22,3 +22,13 @@
 **UserDetailsManager** -A more particular contract for UserDetailsService. Besides retrieving the user by username, it can also be used to mutate a collection of users or a                            specific user.
 
 **PasswordEncoder** - Specifies how the password is encrypted or hashed and how to check whether a given encoded string matches a plaintext password.
+
+ **web app’s security begins with filters**
+1. The first layer of the web application architecture, which intercepts HTTP
+requests, is a filter chain. As for other components in Spring Security architecture, you can customize them to match your requirements.
+2. You can customize the filter chain by adding new filters before, after, or at the
+position of an existing filter.
+3. You can have multiple filters at the same position of an existing filter. In this case,
+the order in which the filters are executed is not defined.
+4. Changing the filter chain helps you customize authentication and authorization
+to match the requirements of your application. For eg. OncePerRequestFilter, GenericFilterBean etc.
